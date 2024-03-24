@@ -1,0 +1,15 @@
+# Handle line endings
+* text=auto eol=lf
+
+# Specify attributes for different file types
+*.svg text
+*.png binary
+*.gitattributes text
+*.gitignore text
+*.json text
+*.txt text
+*.md text
+*.ifc text
+*.css text
+*.csv text
+Blend/Kvennavikgata_v02.blend filter=lfs diff=lfs merge=lfs -text
